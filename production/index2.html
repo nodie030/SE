@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>首頁</title>
+
+    <!-- Bootstrap -->
+    <link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- bootstrap-daterangepicker -->
+    <link href="../vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../build/css/custom.min.css" rel="stylesheet">
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile clearfix">
+              <div class="profile_pic">
+                <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome,</span>
+                <h2>John Doe</h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="index.html">銷售員分析</a></li>
+                      <li><a href="index2.html">首頁</a></li>
+                      <!-- <li><a href="index3.html">Dashboard3</a></li> -->
+                    </ul>
+                  </li>
+                  <!-- <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="form.html">General Form</a></li>
+                      <li><a href="form_advanced.html">Advanced Components</a></li>
+                      <li><a href="form_validation.html">Form Validation</a></li>
+                      <li><a href="form_wizards.html">Form Wizard</a></li>
+                      <li><a href="form_upload.html">Form Upload</a></li>
+                      <li><a href="form_buttons.html">Form Buttons</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-desktop"></i> UI Elements <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="general_elements.html">General Elements</a></li>
+                      <li><a href="media_gallery.html">Media Gallery</a></li>
+                      <li><a href="typography.html">Typography</a></li>
+                      <li><a href="icons.html">Icons</a></li>
+                      <li><a href="glyphicons.html">Glyphicons</a></li>
+                      <li><a href="widgets.html">Widgets</a></li>
+                      <li><a href="invoice.html">Invoice</a></li>
+                      <li><a href="inbox.html">Inbox</a></li>
+                      <li><a href="calendar.html">Calendar</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="tables.html">Tables</a></li>
+                      <li><a href="tables_dynamic.html">Table Dynamic</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="chartjs.html">Chart JS</a></li>
+                      <li><a href="chartjs2.html">Chart JS2</a></li>
+                      <li><a href="morisjs.html">Moris JS</a></li>
+                      <li><a href="echarts.html">ECharts</a></li>
+                      <li><a href="other_charts.html">Other Charts</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-clone"></i>Layouts <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="fixed_sidebar.html">Fixed Sidebar</a></li>
+                      <li><a href="fixed_footer.html">Fixed Footer</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu_section">
+                <h3>Live On</h3>
+                <ul class="nav side-menu">
+                  <li><a><i class="fa fa-bug"></i> Additional Pages <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="e_commerce.html">E-commerce</a></li>
+                      <li><a href="projects.html">Projects</a></li>
+                      <li><a href="project_detail.html">Project Detail</a></li>
+                      <li><a href="contacts.html">Contacts</a></li>
+                      <li><a href="profile.html">Profile</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-windows"></i> Extras <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      
+                      <li><a href="plain_page.html">Plain Page</a></li>
+                      <li><a href="login.html">Login Page</a></li>
+                      <li><a href="pricing_tables.html">Pricing Tables</a></li>
+                    </ul>
+                  </li>
+                  <li><a><i class="fa fa-sitemap"></i> Multilevel Menu <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="#level1_1">Level One</a>
+                        <li><a>Level One<span class="fa fa-chevron-down"></span></a>
+                          <ul class="nav child_menu">
+                            <li class="sub_menu"><a href="level2.html">Level Two</a>
+                            </li>
+                            <li><a href="#level2_1">Level Two</a>
+                            </li>
+                            <li><a href="#level2_2">Level Two</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li><a href="#level1_2">Level One</a>
+                        </li>
+                    </ul>
+                  </li>                  
+                  <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Landing Page <span class="label label-success pull-right">Coming Soon</span></a></li> -->
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Logout" href="login.html">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+            <div class="nav_menu">
+                <div class="nav toggle">
+                  <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                </div>
+                <nav class="nav navbar-nav">
+                <ul class=" navbar-right">
+                  <li class="nav-item dropdown open" style="padding-left: 15px;">
+                    <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                      <img src="images/img.jpg" alt="">John Doe
+                    </a>
+                    <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item"  href="javascript:;"> Profile</a>
+                        <a class="dropdown-item"  href="javascript:;">
+                          <span class="badge bg-red pull-right">50%</span>
+                          <span>Settings</span>
+                        </a>
+                    <a class="dropdown-item"  href="javascript:;">Help</a>
+                      <a class="dropdown-item"  href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                    </div>
+                  </li>
+  
+                  <li role="presentation" class="nav-item dropdown open">
+                    <a href="javascript:;" class="dropdown-toggle info-number" id="navbarDropdown1" data-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-envelope-o"></i>
+                      <span class="badge bg-green">6</span>
+                    </a>
+                    <ul class="dropdown-menu list-unstyled msg_list" role="menu" aria-labelledby="navbarDropdown1">
+                      <li class="nav-item">
+                        <a class="dropdown-item">
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item">
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item">
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="dropdown-item">
+                          <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                          <span>
+                            <span>John Smith</span>
+                            <span class="time">3 mins ago</span>
+                          </span>
+                          <span class="message">
+                            Film festivals used to be do-or-die moments for movie makers. They were where...
+                          </span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <div class="text-center">
+                          <a class="dropdown-item">
+                            <strong>See All Alerts</strong>
+                            <i class="fa fa-angle-right"></i>
+                          </a>
+                        </div>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            
+          <!-- 折線圖 -->
+            <div class="row">
+              <div class="col-md-12">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>總銷售量</h2>
+                    <div class="filter">
+                      <div id="reportrange" class="pull-right" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc">
+                        <i class="glyphicon glyphicon-calendar fa fa-calendar"></i>
+                        <span>December 30, 2014 - January 28, 2015</span> <b class="caret"></b>
+                      </div>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <div class="col-md-9 col-sm-12 " style="max-width: 100%;">
+                      <div class="demo-container" style="height:280px">
+                        <div id="chart_plot_02" class="demo-placeholder"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- 折線圖 -->
+            
+            <div class="row">
+              <!-- 圓餅圖 -->
+              <div class="col-md-4 col-sm-4 ">
+                <div class="x_panel tile fixed_height_320 overflow_hidden">
+                  <div class="x_title">
+                    <h2>各產品銷售量</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <!-- 設定換樣式用 -->
+                      <!-- <li class="dropdown"> 
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                          </div>
+                      </li> -->
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                    <table class="" style="width:100%">
+                      <tr>
+                        <th style="width:37%;">
+                          <!-- <p>Top 5</p> -->
+                        </th>
+                        <th>
+                          <div class="col-lg-7 col-md-7 col-sm-7 ">
+                            <p class="">商品</p>
+                          </div>
+                          <div class="col-lg-5 col-md-5 col-sm-5 ">
+                            <p class="">銷售百分比</p>
+                          </div>
+                        </th>
+                      </tr>
+                      <tr>
+                        <td>
+                          <canvas class="canvasDoughnut" height="140" width="140" style="margin: 15px 10px 10px 0"></canvas>
+                        </td>
+                        <td>
+                          <table class="tile_info">
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square blue"></i>按摩椅A </p>
+                              </td>
+                              <td>30%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square green"></i>按摩椅B </p>
+                              </td>
+                              <td>10%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square purple"></i>按摩椅C </p>
+                              </td>
+                              <td>20%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square aero"></i>按摩椅D </p>
+                              </td>
+                              <td>15%</td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <p><i class="fa fa-square red"></i>Others </p>
+                              </td>
+                              <td>30%</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+              <!-- 長條圖 -->
+              <div class="col-md-4 col-sm-6  widget_tally_box">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>各業務本月績效</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+                    <div id="graph_bar" style="width: 100%; height: 200px; position: relative; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                      <svg height="200" version="1.1" width="293" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative; top: -0.625px;">
+                        <desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël @@VERSION</desc>
+                        <defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></defs>
+                        <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="42.85546875" y="133.1076744135156" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal">
+                          <tspan dy="3.999993139101548" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">0</tspan>
+                        </text>
+                        <path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="none" stroke="#aaaaaa" d="M55.35546875,133.1076744135156H268" stroke-width="0.5"></path>
+                          <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="42.85546875" y="106.08075581013671" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal">
+                            <tspan dy="3.9999986690234266" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">750</tspan>
+                          </text>
+                          <path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="none" stroke="#aaaaaa" d="M55.35546875,106.08075581013671H268" stroke-width="0.5"></path>
+                            <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="42.85546875" y="79.0538372067578" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal">
+                              <tspan dy="3.999996569550774" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">1,500</tspan>
+                            </text>
+                              <path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="none" stroke="#aaaaaa" d="M55.35546875,79.0538372067578H268" stroke-width="0.5"></path>
+                              <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="42.85546875" y="52.0269186033789" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal">
+                                <tspan dy="3.999998284775387" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">2,250</tspan>
+                              </text>
+                              <path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="none" stroke="#aaaaaa" d="M55.35546875,52.0269186033789H268" stroke-width="0.5"></path>
+                              <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: end; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="42.85546875" y="24.999999999999986" text-anchor="end" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal">
+                                <tspan dy="3.999999999999986" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">3,000</tspan>
+                              </text>
+                              <path style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);" fill="none" stroke="#aaaaaa" d="M55.35546875,24.999999999999986H268" stroke-width="0.5"></path>
+                              <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="257.3677734375" y="145.6076744135156" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal" transform="matrix(0.8192,-0.5736,0.5736,0.8192,-49.5855,188.8687)">
+                                <tspan dy="3.999993139101548" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">業務F</tspan>
+                              </text>
+                              <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="236.1033203125" y="145.6076744135156" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal" transform="matrix(0.8192,-0.5736,0.5736,0.8192,-74.4292,191.0248)">
+                                <tspan dy="3.999993139101548" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">業務E</tspan>
+                              </text>
+                              <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="193.5744140625" y="145.6076744135156" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal" transform="matrix(0.8192,-0.5736,0.5736,0.8192,-78.8438,164.3369)">
+                                <tspan dy="3.999993139101548" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">業務D</tspan>
+                              </text>
+                              <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="151.0455078125" y="145.6076744135156" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal" transform="matrix(0.8192,-0.5736,0.5736,0.8192,-78.8875,134.5884)">
+                                <tspan dy="3.999993139101548" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">業務C</tspan>
+                              </text>
+                              <text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="108.5166015625" y="145.6076744135156" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal" transform="matrix(0.8192,-0.5736,0.5736,0.8192,-90.3994,112.8701)">
+                                <tspan dy="3.999993139101548" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">業務B</tspan>
+                              </text><text style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: middle; font-family: sans-serif; font-size: 12px; font-weight: normal;" x="65.9876953125" y="145.6076744135156" text-anchor="middle" font-family="sans-serif" font-size="12px" stroke="none" fill="#888888" font-weight="normal" transform="matrix(0.8192,-0.5736,0.5736,0.8192,-91.0905,83.6885)">
+                                <tspan dy="3.999993139101548" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">業務A</tspan>
+                              </text>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="58.013525390625" y="119.4140356544703" width="15.948339843749999" height="13.693638759045314" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="79.27797851562501" y="109.50416549989804" width="15.948339843749999" height="23.603508913617574" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="100.54243164062501" y="123.19780425894335" width="15.948339843749999" height="9.90987015457226" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="121.806884765625" y="76.4952889123046" width="15.948339843749999" height="56.61238550121101" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="143.07133789062502" y="109.50416549989804" width="15.948339843749999" height="23.603508913617574" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="164.335791015625" y="55.4863641846114" width="15.948339843749999" height="77.6213102289042" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="185.600244140625" y="91.88261457049498" width="15.948339843749999" height="41.22505984302063" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="206.864697265625" y="47.666575735367104" width="15.948339843749999" height="85.4410986781485" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="228.129150390625" y="80.09887805942179" width="15.948339843749999" height="53.00879635409382" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                              <rect style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); fill-opacity: 1;" x="249.393603515625" y="83.70246720653897" width="15.948339843749999" height="49.40520720697664" rx="0" ry="0" fill="#26b99a" stroke="none" fill-opacity="1"></rect>
+                            </svg>
+                              <div class="morris-hover morris-default-style" style="display: none;"></div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- 長條圖 -->
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-sm-12 ">
+                <div class="x_panel">
+                  <div class="x_title">
+                    <h2>購買資料表</h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Settings 1</a>
+                            <a class="dropdown-item" href="#">Settings 2</a>
+                          </div>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+                      <div class="row">
+                          <div class="col-sm-12">
+                            <div class="card-box table-responsive">
+                    <!-- <p class="text-muted font-13 m-b-30">
+                      The Buttons extension for DataTables provides a common set of options, API methods and styling to display buttons on a page that will interact with a DataTable. The core library provides the based framework upon which plug-ins can built.
+                    </p> -->
+                    <div id="datatable-buttons_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap no-footer"><div class="dt-buttons btn-group"><a class="btn btn-default buttons-copy buttons-html5 btn-sm" tabindex="0" aria-controls="datatable-buttons" href="#"><span>Copy</span></a><a class="btn btn-default buttons-csv buttons-html5 btn-sm" tabindex="0" aria-controls="datatable-buttons" href="#"><span>CSV</span></a><a class="btn btn-default buttons-excel buttons-html5 btn-sm" tabindex="0" aria-controls="datatable-buttons" href="#"><span>Excel</span></a><a class="btn btn-default buttons-pdf buttons-html5 btn-sm" tabindex="0" aria-controls="datatable-buttons" href="#"><span>PDF</span></a><a class="btn btn-default buttons-print btn-sm" tabindex="0" aria-controls="datatable-buttons" href="#"><span>Print</span></a></div><div class="dataTables_length" id="datatable-buttons_length"><label>Show <select name="datatable-buttons_length" aria-controls="datatable-buttons" class="form-control input-sm"><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="datatable-buttons_filter" class="dataTables_filter"><label>Search:<input type="search" class="form-control input-sm" placeholder="" aria-controls="datatable-buttons"></label></div><table id="datatable-buttons" class="table table-striped table-bordered dataTable no-footer dtr-inline" style="width: 100%;" role="grid" aria-describedby="datatable-buttons_info">
+                      <thead>
+                        <tr role="row"><th class="sorting_asc" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1" style="width: 135px;" aria-sort="ascending" aria-label="Name: activate to sort column descending">Name</th><th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1" style="width: 214px;" aria-label="Position: activate to sort column ascending">Position</th><th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1" style="width: 101px;" aria-label="Office: activate to sort column ascending">Office</th><th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1" style="width: 47px;" aria-label="Age: activate to sort column ascending">Age</th><th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1" style="width: 95px;" aria-label="Start date: activate to sort column ascending">shopping date</th><th class="sorting" tabindex="0" aria-controls="datatable-buttons" rowspan="1" colspan="1" style="width: 77px;" aria-label="Salary: activate to sort column ascending">Consumption</th></tr>
+                      </thead>
+
+
+                      <tbody>
+                    
+                                             
+                      <tr role="row" class="odd">
+                          <td tabindex="0" class="sorting_1">Airi Satou</td>
+                          <td>Accountant</td>
+                          <td>Tokyo</td>
+                          <td>33</td>
+                          <td>2008/11/28</td>
+                          <td>$162,700</td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Angelica Ramos</td>
+                          <td>Chief Executive Officer (CEO)</td>
+                          <td>London</td>
+                          <td>47</td>
+                          <td>2009/10/09</td>
+                          <td>$1,200,000</td>
+                        </tr><tr role="row" class="odd">
+                          <td tabindex="0" class="sorting_1">Ashton Cox</td>
+                          <td>Junior Technical Author</td>
+                          <td>San Francisco</td>
+                          <td>66</td>
+                          <td>2009/01/12</td>
+                          <td>$86,000</td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Bradley Greer</td>
+                          <td>Software Engineer</td>
+                          <td>London</td>
+                          <td>41</td>
+                          <td>2012/10/13</td>
+                          <td>$132,000</td>
+                        </tr><tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Brenden Wagner</td>
+                          <td>Software Engineer</td>
+                          <td>San Francisco</td>
+                          <td>28</td>
+                          <td>2011/06/07</td>
+                          <td>$206,850</td>
+                        </tr><tr role="row" class="even">
+                          <td tabindex="0" class="sorting_1">Brielle Williamson</td>
+                          <td>Integration Specialist</td>
+                          <td>New York</td>
+                          <td>61</td>
+                          <td>2012/12/02</td>
+                          <td>$372,000</td>
+                        </tr><tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Bruno Nash</td>
+                          <td>Software Engineer</td>
+                          <td>London</td>
+                          <td>38</td>
+                          <td>2011/05/03</td>
+                          <td>$163,500</td>
+                        </tr><tr role="row" class="even">
+                          <td class="sorting_1" tabindex="0">Caesar Vance</td>
+                          <td>Pre-Sales Support</td>
+                          <td>New York</td>
+                          <td>21</td>
+                          <td>2011/12/12</td>
+                          <td>$106,450</td>
+                        </tr><tr role="row" class="odd">
+                          <td class="sorting_1" tabindex="0">Cara Stevens</td>
+                          <td>Sales Assistant</td>
+                          <td>New York</td>
+                          <td>46</td>
+                          <td>2011/12/06</td>
+                          <td>$145,600</td>
+                        </tr><tr role="row" class="even">
+                          <td tabindex="0" class="sorting_1">Cedric Kelly</td>
+                          <td>Senior Javascript Developer</td>
+                          <td>Edinburgh</td>
+                          <td>22</td>
+                          <td>2012/03/29</td>
+                          <td>$433,060</td>
+                        </tr></tbody>
+                    </table><div class="dataTables_info" id="datatable-buttons_info" role="status" aria-live="polite">Showing 1 to 10 of 57 entries</div><div class="dataTables_paginate paging_simple_numbers" id="datatable-buttons_paginate"><ul class="pagination"><li class="paginate_button previous disabled" id="datatable-buttons_previous"><a href="#" aria-controls="datatable-buttons" data-dt-idx="0" tabindex="0">Previous</a></li><li class="paginate_button active"><a href="#" aria-controls="datatable-buttons" data-dt-idx="1" tabindex="0">1</a></li><li class="paginate_button "><a href="#" aria-controls="datatable-buttons" data-dt-idx="2" tabindex="0">2</a></li><li class="paginate_button "><a href="#" aria-controls="datatable-buttons" data-dt-idx="3" tabindex="0">3</a></li><li class="paginate_button "><a href="#" aria-controls="datatable-buttons" data-dt-idx="4" tabindex="0">4</a></li><li class="paginate_button "><a href="#" aria-controls="datatable-buttons" data-dt-idx="5" tabindex="0">5</a></li><li class="paginate_button "><a href="#" aria-controls="datatable-buttons" data-dt-idx="6" tabindex="0">6</a></li><li class="paginate_button next" id="datatable-buttons_next"><a href="#" aria-controls="datatable-buttons" data-dt-idx="7" tabindex="0">Next</a></li></ul></div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../vendors/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap -->
+   <script src="../vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FastClick -->
+    <script src="../vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../vendors/nprogress/nprogress.js"></script>
+    <!-- Chart.js -->
+    <script src="../vendors/Chart.js/dist/Chart.min.js"></script>
+    <!-- jQuery Sparklines -->
+    <script src="../vendors/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+    <!-- Flot -->
+    <script src="../vendors/Flot/jquery.flot.js"></script>
+    <script src="../vendors/Flot/jquery.flot.pie.js"></script>
+    <script src="../vendors/Flot/jquery.flot.time.js"></script>
+    <script src="../vendors/Flot/jquery.flot.stack.js"></script>
+    <script src="../vendors/Flot/jquery.flot.resize.js"></script>
+    <!-- Flot plugins -->
+    <script src="../vendors/flot.orderbars/js/jquery.flot.orderBars.js"></script>
+    <script src="../vendors/flot-spline/js/jquery.flot.spline.min.js"></script>
+    <script src="../vendors/flot.curvedlines/curvedLines.js"></script>
+    <!-- DateJS -->
+    <script src="../vendors/DateJS/build/date.js"></script>
+    <!-- bootstrap-daterangepicker -->
+    <script src="../vendors/moment/min/moment.min.js"></script>
+    <script src="../vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    
+    <!-- Custom Theme Scripts -->
+    <script src="../build/js/custom.min.js"></script>
+  </body>
+</html>
